@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Image Slider</title>
+
+<style type="text/css">
+
+.slider {
+	width:800px;
+	height:350px;
+	overflow:hidden;
+	margin:30px auto;
+	background-repeat:no-repeat;
+	background-position:center;
+	
+}
+
+
+.slider img{
+	width: 800px;
+	height: 350px;
+	display: none;
+}
+	
+</style>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/spf/2.2.0/spf.js"></script>
+<script type="text/javascript">
+
+function slider() {
+	$("slider#1").show("fade", 500);
+	$("slider#1").delay(5500).hide("slide",{direction:'left'},500);
+	
+}
+</script>
+</head>
+
+<body onLoad="slider()">
+	<div class="slider">
+	 <img id="1" src="img/Coif.web.start.image.png" border="0" alt="Bilde av hjelmene"> 
+	 <img id="2" src="img/app makeover.jpg" border="0" alt="bilde av app">
+	 <img id="3" src="img/innside.coft1.jpg" border="0" alt="bilde av app">
+	</div>
+</body>
+</html>

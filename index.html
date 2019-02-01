@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Vikerfjell</title>
+    
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+<!-- Google Fonts Roboto, alle typer -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<!--  -->
+<script type="text/javascript" src="styles/jquery-2.1.4.min.js"></script>
+<!--  -->
+<script type="text/javascript" src="functions/custom.js"></script>
+<!--  -->
+<script type="text/javascript" src="styles/jquery.cycle2.min.js"></script>
+<!--  -->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<!-- Responsiv hamburgermeny function -->
+<script>
+    function myHamburgerFunction() {
+        var x = document.getElementById("mytopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+<script>
+    function myFunction() {
+        if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+            document.getElementById("myScroll").className = "slideUp";
+        }
+    }
+
+</script>
+<script>
+/* Script for header animasjon function */
+
+    function FadeInAnimationFunction() {
+        location.reload();
+    }
+
+    
+</script>
+    
+</head>
+<body>
+
+<!-- her lager jeg en ny nav "joacim bergh" -->
+<header>
+  <a href="index.html" id="logo"><img src="Bilder/Logo/Logomakr_5HqpuT.png" height="62px" width="83px"></a>
+    <ul class="topnav" id="mytopnav">
+      <li class="main-menu-item"><a href="hytter.html">HYTTER</a>
+        <ul class="sub-menu">
+                <li><a role="link" href="HytterSalg.html" title="Denne linken tar deg til hytter til salgs">TIL SALGS</a></li>
+                <li><a role="link" href="HytterSalg.html" title="Denne linken tar deg til hytter til salgs">TIL LEIE</a></li>
+            </ul>
+        </li>
+      <li><a href="tjenester.html">TJENESTER</a></li>
+      <li><a href="aktiviteter.html">AKTIVITETER</a></li>
+      <li><a href="aktuelt.html">AKTUELT</a></li>
+      <li><a href="kontakt.html">KONTAKT OSS</a></li>
+        <div id="wrap">
+                <form action="" autocomplete="on">
+                    <input id="search" name="search" type="text"  placeholder="Søk...."><input id="search_submit" value="Rechercher" type="submit">
+                </form>
+            </div>
+    </ul>
+      <a href="javascript:void(0);" id="menu-icon" onclick="myHamburgerFunction()"></a>
+</header>
+
+ <!-- Grid -->
+
+<div class="grid2">
+    <div class="row">
+    	<div class="col-wd-12">
+        	<div class="col">
+                <div class = "header-container">
+                    <div class = "video-container">
+                        <video preload="true" autoplay = "autoplay" loop= "loop" volume = "0" poster = "Bilder/r%C3%A5verer.2000b.jpg">
+                            <source src="video/Nature-Sunset.mp4" type="video/mp4">
+                        </video> <!-- end of video -->
+                    </div> <!-- end of video conatiner -->
+                    <div id="animated-header" class="animatedHeader fadeIn">
+                        <h1 class="header-tekst"> Oslo's nærmeste høyfjell  </h1><!--<h4 class="header-tekst">Vikerfjell er Oslos nærmeste høyfjellsområde. Avstanden fra Vikerfjells sydligste høyfjellsområder til Oslo rådhus er kun 64 km i luftlinje.</h4>-->
+                    </div>
+                     <a onclick="FadeInAnimationFunction()"></a>
+                </div>    <!-- end of header container -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div class="ScrollGrid" id="myScroll">-->
+<div class="grid1">
+<!--Row-->
+    <div class="row2">
+    	<div class="col-wd-12 col-md-12 col-sm-4">
+        	<a href="kontaktoss.html">
+                <div class="col4">
+                    <img src="Bilder/Artikkelbilder/fiskemulighetr.jpg" width="99%" height="99%" alt="Bilde av hyttertomter">
+                    <h2> Gode fiskemuligheter </h2>
+                        <p>Både innsjøen Sperillen og vannene på Vikerfjell er rikt på fisk. Du kan utfordre alt fra storgjedda i Sperillen (150 moh) til høyfjellsørreten i Storauretjern på over 1000 moh.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-wd-12 col-md-12 col-sm-4">
+            <a href="kontaktoss.html">
+        	   <div class="col4"><img src="Bilder/Artikkelbilder/vikerfjelldagen.jpg" width="99%" height="99%" alt="Bilde av vikefjelldagen"><h2> Vikerfjelldagen 20.august 2017 </h2>
+                    <p>Vikerfjelldagen 2016 blir arrangert på Ringmoen skole lørdag 20.august kl 12-17. Møt opp for å treffe ulike aktører i området, gode tilbud og for hyggelig sosialt samvære. Følg Vikerfjelldagen på Facebook</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-wd-12 col-md-12 col-sm-4">
+            <a href="kontaktoss.html">
+        	   <div class="col4"><img src="Bilder/Artikkelbilder/sm%C3%A5vilt.jpg" width="99%" height="99%" alt="Bilde av jakt"><h2> Småviltjakt </h2>
+                   <p>Området har gode bestander av vilt som forvaltes på en god måte. Småviltjakten leies ut som terrengleie for at jakttrykket ikke skal bli for stort.  Eiere av hytte eller tomt på eiendommen prioriteres for leie av jakt.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+        <!-- end row-->
+</div>
+
+<!--end grid -->
+
+<div class="grid1">
+ <!--Row-->
+    <div class="row2">
+    	<div class="col-wd-12 col-md-12 col-sm-4">
+        	<a href="kontaktoss.html">
+                <div class="col4">
+                    <img src="Bilder/Artikkelbilder/naturreservat.jpg" width="99%" height="99%" alt="Bilde av naturreservat">
+                    <h2> Vikerfjell naturreservat opprettet </h2><p>Vikerfjell naturreservat ble vedtatt opprettet av Kongen i statsråd den 10 jun 2016. Vedtaket er et ledd i regjeringens satsing på økt skogvern.</p>
+
+                </div>
+            </a>
+        </div>
+        <div class="col-wd-12 col-md-12 col-sm-4">
+            <a href="kontaktoss.html">
+        	   <div class="col4">
+                    <img src="Bilder/Artikkelbilder/hytte-tomter.jpg" width="99%" height="99%" alt="Bilde av hyttertomter">
+                    <h2> Solrike hyttetomter til salgs </h2>
+                        <p>Vi har flere ledige solrike hyttetomter til salgs. Området har både Villmarkstomter og høystandard tomter, så her er det noe for enhver smak.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-wd-12 col-md-12 col-sm-4">
+            <a href="kontaktoss.html">
+        	   <div class="col4"><img src="Bilder/Artikkelbilder/Skil%C3%B8p.jpg" width="99%" height="99%" alt="Bilde av skiløp"><h2> Vikerfjelløpet </h2>
+                   <p>Vikerfjelløpet skirenn går av stabelen 28 januar 2017. Løpet går på Vikerfjell med start og målgang på Tosseviksetra i flott fjelltereng like under tregrensa. Vi har lagt opp ei fin og variert løype som vi tror de fleste turløpere vil like.</p>
+                </div>
+            </a>
+        </div>
+    </div>    <!-- end row-->
+</div>
+<!--end grid-->
+<!--</div>-->
+<!-------------------------------  Her starter FOOTER --------------------------------------------->
+<div class="grid2">
+    <div class="row1">
+        <!--Første col i footeren starter her -->
+        <div class="col-wd-12 col-md-12 col-sm-4"><div class="col1"><h3 class="footer-tekst">Snarveier</h3> 
+                <ul class="footer-menu">
+                    <li><a href="tjenester.html">TJENESTER</a></li><br>
+                    <li><a href="kontaktoss.html">HYTTER</a></li><br>
+                    <li><a href="omoss.html">OM OSS</a></li><br>
+                    <li><a href="kontaktoss.html">KONTAKT OSS</a></li><br>
+ 				</ul> 
+        	</div>               
+		</div>
+ <!------------------------ Første col i footeren slutter her -------------------------------------->
+        
+<!------------------------- Andre col i footeren-sosial-media starter her ---------------------------------------->      
+        <div class="col-wd-12 col-md-12 col-sm-4">  
+            <div class="col1">
+                <h3 class="footer-tekst">Følge Oss på</h3>
+                <a class="socialIcons" href="https://www.facebook.com" target="_blank" title="Følg oss på Facebook" alt="Facebook gruppe"> <img src="Bilder/Icon/facebook-64.png" /></a>
+
+                    <a class="socialIcons" href="kontaktoss.html" target="_blank" title="Send oss en medling" alt="Medling"><img src="Bilder/Icon/email-64.png" alt="link til kontakt oss" /></a>
+
+                    <a class="socialIcons" href="https://twitter.com/" target="_blank"title="Følge oss på Twitter" alt="Twitter side"><img src="Bilder/Icon/twitter-icon.png" alt="link til twitter" </a>
+
+                    <a class="socialIcons" href="https://www.instagram.com/" target="_blank" title="Følge oss på Instagram" alt="Instagram side"><img src="Bilder/Icon/instagram-64.png" alt="link til twitter" /></a>
+
+                    <h3 class="vikerfjell-rett">© Vikerfjell.com </h3>
+                </div>               
+            </div>
+        
+<!------------------------- Tredje col i footeren-kart starter her ----------------------------------------->          
+            <div class="col-wd-12 col-md-12 col-sm-4">
+                <div class="col1">
+                    <h3 class="footer-tekst">Her er vi</h3><h4>Elsrud Gård<br>Vestre Ådal 922 <br>3516 Hønefoss</h4>
+                    <a class="vikerfjell-kart" href="https://www.google.no/maps/place/Elsrud+G%C3%A5rd/@60.5057797,10.3395552,8.25z/data=!4m5!3m4!1s0x46404ebc2dd64ba9:0xe71f9ea60cb6d410!8m2!3d60.4644835!4d10.0216486" target="_blank" title="Her er vi" alt="Facebook gruppe"><img src="Bilder/Kart-Vikerfjell.jpg"/></a>
+                </div>               
+            </div>
+        
+<!------------------------- Tredje col i footeren slutter her ------------------------------------------>         
+    </div>
+</div>
+ 
+<!------------------------- grid footeren slutter her -------------------------------------------------->  
+                
+<!----------------------------- Her Slutter FOOTER ----------------------------------------------------->
+</body>
+</html>
+<!--FOOTER SLUTT-->
