@@ -13,13 +13,13 @@ The task was to create a web application for Vikerfjell, We could not use any ki
 
 
 ### Author
-* Bahaa Al-Bayati www.bahaa.no
+* Bahaa Al-Bayati >> www.bahaa.no
 
 
 
 ### Contributors
-[Steffen J. Gundersen]() 
-[Joacim. N. Bergh]() 
+[Steffen J. Gundersen](). 
+[Joacim. N. Bergh]().
 
 
 ### Changelog
