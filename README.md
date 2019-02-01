@@ -18,8 +18,8 @@ The task was to create a web application for Vikerfjell, We could not use any ki
 
 
 ### Contributors
-[Steffen J. Gundersen](https://github.com/joacimbergh)
-[Joacim. N. Bergh](https://github.com/Steffinho94)
+[Steffen J. Gundersen](https://github.com/joacimbergh) - Implemented in 1.2.0
+[Joacim. N. Bergh](https://github.com/Steffinho94) - Implemented in 1.2.0
 
 
 ### Changelog
